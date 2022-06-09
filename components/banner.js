@@ -3,7 +3,7 @@ function Banner() {
     <div className="content-small">
       <div className="space-y-6">
         <h1 className="text-2xl font-bold">
-          👋 Mücahit Nezir.
+          Mücahit Nezir
           <br />
           Software engineer from Turkey
         </h1>
