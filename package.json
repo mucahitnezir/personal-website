@@ -2,6 +2,11 @@
   "name": "mucahitnezir.com",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "Mücahit Nezir",
+    "email": "mucahitnezir@gmail.com",
+    "url": "https://mucahitnezir.com"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
