@@ -1,17 +1,17 @@
 import Head from 'next/head'
 
+import Banner from '../components/banner'
+import Social from '../components/social'
+
 export default function Home() {
   return (
-    <div>
+    <>
       <Head>
-        <title>Mücahit Nezir</title>
-        <meta name="description" content="Software Engineer from Turkey" />
-        <link rel="icon" href="/favicon.ico" />
+        <title>Home</title>
       </Head>
 
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-    </div>
+      <Banner />
+      <Social />
+    </>
   )
 }
