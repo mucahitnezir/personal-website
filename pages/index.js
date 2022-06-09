@@ -3,7 +3,7 @@ import Head from 'next/head'
 import Banner from '../components/banner'
 import Social from '../components/social'
 
-export default function Home() {
+function Home() {
   return (
     <>
       <Head>
@@ -15,3 +15,5 @@ export default function Home() {
     </>
   )
 }
+
+export default Home

@@ -16,4 +16,4 @@ function Icon({ icon, title = 'icon', size = 22 }) {
   )
 }
 
-export default Icon;
+export default Icon

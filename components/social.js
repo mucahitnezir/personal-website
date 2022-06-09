@@ -17,12 +17,12 @@ function SocialButton({ href, children }) {
     >
       {children}
     </a>
-  );
+  )
 }
 
 function Social() {
-  const { email } = meta.author;
-  const { twitter, linkedin, github, instagram } = meta.social;
+  const { email } = meta.author
+  const { twitter, linkedin, github, instagram } = meta.social
 
   return (
     <div className="content-small">
@@ -51,4 +51,4 @@ function Social() {
   )
 }
 
-export default Social;
+export default Social
