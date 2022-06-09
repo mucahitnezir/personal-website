@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }) {
       </Head>
 
       <div className="flex min-h-screen flex-col">
-        <main className="flex-grow bg-amber-50">
+        <main className="flex-grow bg-gray-100">
           <Component {...pageProps} />
         </main>
       </div>
