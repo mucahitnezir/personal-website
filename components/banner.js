@@ -1,3 +1,4 @@
+import Picture from './picture'
 import { meta } from '../site.config'
 
 function Banner() {
@@ -6,7 +7,11 @@ function Banner() {
   return (
     <div className="content-small">
       <div className="space-y-6">
-        <h1 className="text-2xl font-medium">
+        <div className="text-center">
+          <Picture />
+        </div>
+
+        <h1 className="text-2xl font-medium text-center">
           Hi, I am Mücahit
           <br />
           Software Engineer from Turkey
