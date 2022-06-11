@@ -1,8 +1,8 @@
-function Icon({ icon, title = 'icon', size = 22 }) {
+function Icon({ icon, title = 'icon', size = 22, viewBox = '0 0 24 24' }) {
   return (
     <svg
       role="img"
-      viewBox="0 0 24 24"
+      viewBox={viewBox}
       width={size}
       height={size}
       xmlns="http://www.w3.org/2000/svg"

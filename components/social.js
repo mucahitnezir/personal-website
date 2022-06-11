@@ -3,6 +3,7 @@ import { mdiLinkedin, mdiTwitter, mdiInstagram, mdiGithub  } from '@mdi/js'
 import { meta } from '../site.config'
 
 import Icon from './icon'
+import MediumIcon from './medium-icon'
 
 function SocialButton({ href, children }) {
   return (
@@ -21,7 +22,7 @@ function SocialButton({ href, children }) {
 
 function Social() {
   const { email } = meta.author
-  const { twitter, linkedin, github, instagram } = meta.social
+  const { twitter, linkedin, medium, github, instagram } = meta.social
 
   return (
     <div className="flex justify-center space-x-2">
@@ -35,6 +36,10 @@ function Social() {
 
       <SocialButton href={github}>
         <Icon icon={mdiGithub} title="GitHub" />
+      </SocialButton>
+
+      <SocialButton href={medium}>
+        <MediumIcon />
       </SocialButton>
 
       <SocialButton href={linkedin}>
