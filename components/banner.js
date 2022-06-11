@@ -30,7 +30,9 @@ function Banner() {
         <p className="text-xl">
           Meeting new people makes me happy.  You can choose a suitable time <a href={meetingURL} className="underline font-medium" target="_blank" rel="noreferrer">on my calendar</a>, if you want to meet me.
         </p>
+      </div>
 
+      <div className="mt-10">
         <Social />
       </div>
     </div>

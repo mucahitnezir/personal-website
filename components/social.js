@@ -12,8 +12,7 @@ function SocialButton({ href, children }) {
       rel="noreferrer"
       className="
       flex items-center rounded-full bg-zinc-200 p-3 text-zinc-600 transition-colors
-      hover:bg-opacity-75
-      dark:bg-zinc-700 dark:text-zinc-200"
+      hover:underline hover:bg-opacity-75"
     >
       {children}
     </a>
