@@ -1,6 +1,6 @@
 export const meta = {
   title: 'Mücahit Nezir',
-  description: 'Software engineer from Turkey',
+  description: 'Hi, I am Mücahit Nezir. Software Engineer from Turkey. You can meet with me or follow on social media.',
   url: 'https://mucahitnezir.com',
   author: {
     name: 'Mücahit Nezir',
