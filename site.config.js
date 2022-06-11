@@ -1,6 +1,6 @@
 export const meta = {
   title: 'Mücahit Nezir',
-  description: 'Hi, I am Mücahit Nezir who develops cloud based applications in Istanbul, Turkey. For more information, follow me on social media or schedule a meeting on my calendar.',
+  description: 'Hi, I am Mücahit Nezir who develops cloud based applications in Turkey. For more information, follow me on social media or schedule a meeting on my calendar.',
   url: 'https://mucahitnezir.com',
   author: {
     name: 'Mücahit Nezir',
