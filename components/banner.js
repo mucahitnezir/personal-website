@@ -1,4 +1,6 @@
 import Picture from './picture'
+import Social from './social'
+
 import { meta } from '../site.config'
 
 function Banner() {
@@ -28,6 +30,8 @@ function Banner() {
         <p className="text-xl">
           Meeting new people makes me happy.  You can choose a suitable time <a href={meetingURL} className="underline font-medium" target="_blank" rel="noreferrer">on my calendar</a>, if you want to meet me.
         </p>
+
+        <Social />
       </div>
     </div>
   )

@@ -1,12 +1,10 @@
 import Banner from '../components/banner'
-import Social from '../components/social'
 
 function Home() {
   return (
-    <>
+    <div className="flex flex-col min-h-screen py-10 justify-center">
       <Banner />
-      <Social />
-    </>
+    </div>
   )
 }
 

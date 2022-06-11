@@ -25,28 +25,26 @@ function Social() {
   const { twitter, linkedin, github, instagram } = meta.social
 
   return (
-    <div className="content-small">
-      <div className="flex items-center space-x-2">
-        <SocialButton href={`mailto:${email}`}>
-          <span className="mx-2 font-semibold">Email</span>
-        </SocialButton>
+    <div className="flex justify-center space-x-2">
+      <SocialButton href={`mailto:${email}`}>
+        <span className="mx-2 font-semibold">Email</span>
+      </SocialButton>
 
-        <SocialButton href={twitter}>
-          <Icon icon={mdiTwitter} title="Twitter" />
-        </SocialButton>
+      <SocialButton href={twitter}>
+        <Icon icon={mdiTwitter} title="Twitter" />
+      </SocialButton>
 
-        <SocialButton href={github}>
-          <Icon icon={mdiGithub} title="GitHub" />
-        </SocialButton>
+      <SocialButton href={github}>
+        <Icon icon={mdiGithub} title="GitHub" />
+      </SocialButton>
 
-        <SocialButton href={linkedin}>
-          <Icon icon={mdiLinkedin} title="Linkedin" />
-        </SocialButton>
+      <SocialButton href={linkedin}>
+        <Icon icon={mdiLinkedin} title="Linkedin" />
+      </SocialButton>
 
-        <SocialButton href={instagram}>
-          <Icon icon={mdiInstagram} title="Instagram" />
-        </SocialButton>
-      </div>
+      <SocialButton href={instagram}>
+        <Icon icon={mdiInstagram} title="Instagram" />
+      </SocialButton>
     </div>
   )
 }
