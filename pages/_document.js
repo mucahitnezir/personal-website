@@ -11,7 +11,7 @@ class MyDocument extends Document {
           {/* global meta tags */}
           <meta charSet="UTF-8" />
           <meta name="robots" content="follow, index" />
-          <meta name="theme-color" content="#ebebeb" />
+          <meta name="theme-color" content="#282828" />
 
           {/* icons */}
           <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
