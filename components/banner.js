@@ -6,7 +6,7 @@ function Banner() {
   return (
     <div className="content-small">
       <div className="space-y-6">
-        <h1 className="text-2xl font-bold">
+        <h1 className="text-2xl font-medium">
           Hi, I am Mücahit
           <br />
           Software Engineer from Turkey
@@ -21,7 +21,7 @@ function Banner() {
         </p>
 
         <p className="text-xl">
-          Meeting new people makes me happy.  You can choose a suitable time <a href={meetingURL} className="underline font-semibold" target="_blank" rel="noreferrer">on my calendar</a>, if you want to meet me.
+          Meeting new people makes me happy.  You can choose a suitable time <a href={meetingURL} className="underline font-medium" target="_blank" rel="noreferrer">on my calendar</a>, if you want to meet me.
         </p>
       </div>
     </div>
