@@ -35,16 +35,16 @@ function Social() {
           <Icon icon={mdiTwitter} title="Twitter" />
         </SocialButton>
 
+        <SocialButton href={github}>
+          <Icon icon={mdiGithub} title="GitHub" />
+        </SocialButton>
+
         <SocialButton href={linkedin}>
           <Icon icon={mdiLinkedin} title="Linkedin" />
         </SocialButton>
 
         <SocialButton href={instagram}>
           <Icon icon={mdiInstagram} title="Instagram" />
-        </SocialButton>
-
-        <SocialButton href={github}>
-          <Icon icon={mdiGithub} title="GitHub" />
         </SocialButton>
       </div>
     </div>
