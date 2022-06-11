@@ -17,11 +17,9 @@ function MyApp({ Component, pageProps }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="flex min-h-screen flex-col">
-        <main className="flex-grow bg-gray-100">
-          <Component {...pageProps} />
-        </main>
-      </div>
+      <main className="min-h-screen bg-gray-100">
+        <Component {...pageProps} />
+      </main>
     </>
   )
 }
