@@ -12,5 +12,6 @@ export const meta = {
     github: 'https://github.com/mucahitnezir',
     medium: 'https://mucahitnezir.medium.com',
     instagram: 'https://www.instagram.com/mucahitnezir'
-  }
+  },
+  meetingURL: 'https://calendly.com/d/dnv-hrv-c55/lets-meet'
 }
