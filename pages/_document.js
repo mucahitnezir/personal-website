@@ -1,6 +1,7 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 
 import { meta } from "../site.config";
+import { GTM_ID, GTM_AVAILABLE } from '../libs/gtm'
 
 class MyDocument extends Document {
   render() {
@@ -16,6 +17,19 @@ class MyDocument extends Document {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <body className="bg-gray-100">
+          {GTM_AVAILABLE && (
+            /* Google Tag Manager (noscript) */
+            <noscript>
+              <iframe
+              src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
+              height="0"
+              width="0"
+              style={{ display: 'none', visibility: 'hidden' }}
+              />
+            </noscript>
+            /* End Google Tag Manager (noscript) */
+          )}
+
           <Main />
           <NextScript />
         </body>
