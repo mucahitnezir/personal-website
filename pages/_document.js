@@ -13,6 +13,11 @@ class MyDocument extends Document {
           <meta name="robots" content="follow, index" />
           <meta name="theme-color" content="#282828" />
 
+          <link
+            href="https://fonts.googleapis.com/css2?family=Poppins&display=optional"
+            rel="stylesheet"
+          />
+
           {/* icons */}
           <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png" />
           <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png" />

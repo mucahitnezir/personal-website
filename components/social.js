@@ -27,7 +27,7 @@ function Social() {
   return (
     <div className="flex justify-center space-x-2">
       <SocialButton href={`mailto:${email}`}>
-        <span className="mx-2 font-semibold">Email</span>
+        <span className="mx-2 font-medium">Email</span>
       </SocialButton>
 
       <SocialButton href={twitter}>
