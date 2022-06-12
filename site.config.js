@@ -13,5 +13,5 @@ export const meta = {
     medium: 'https://mucahitnezir.medium.com',
     instagram: 'https://www.instagram.com/mucahitnezir'
   },
-  meetingURL: 'https://calendly.com/d/dnv-hrv-c55/lets-meet'
+  meetingURL: 'https://calendly.com/mucahitnezir/lets-meet'
 }
