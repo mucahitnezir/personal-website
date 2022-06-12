@@ -1,11 +1,18 @@
-import { mdiLinkedin, mdiTwitter, mdiInstagram, mdiGithub  } from '@mdi/js'
+import { ReactNode } from 'react';
 
-import { meta } from '~/site.config'
+import { mdiLinkedin, mdiTwitter, mdiInstagram, mdiGithub  } from '@mdi/js';
 
-import Icon from './icon'
-import MediumIcon from './medium-icon'
+import { meta } from '~/site.config';
 
-function SocialButton({ href, children }) {
+import Icon from './icon';
+import MediumIcon from './medium-icon';
+
+type SocialButtonProps = {
+  href: string,
+  children: ReactNode
+}
+
+function SocialButton({ href, children }: SocialButtonProps) {
   return (
     <a
       href={href}
@@ -17,12 +24,12 @@ function SocialButton({ href, children }) {
     >
       {children}
     </a>
-  )
+  );
 }
 
 function Social() {
-  const { email } = meta.author
-  const { twitter, linkedin, medium, github, instagram } = meta.social
+  const { email } = meta.author;
+  const { twitter, linkedin, medium, github, instagram } = meta.social;
 
   return (
     <div className="flex justify-center space-x-2">
@@ -50,7 +57,7 @@ function Social() {
         <Icon icon={mdiInstagram} title="Instagram" />
       </SocialButton>
     </div>
-  )
+  );
 }
 
-export default Social
+export default Social;

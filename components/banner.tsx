@@ -1,10 +1,10 @@
-import Picture from './picture'
-import Social from './social'
+import Picture from './picture';
+import Social from './social';
 
-import { meta } from '~/site.config'
+import { meta } from '~/site.config';
 
 function Banner() {
-  const { meetingURL } = meta
+  const { meetingURL } = meta;
 
   return (
     <div className="content-small">
@@ -36,7 +36,7 @@ function Banner() {
         <Social />
       </div>
     </div>
-  )
+  );
 }
 
-export default Banner
+export default Banner;

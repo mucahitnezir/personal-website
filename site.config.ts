@@ -14,4 +14,4 @@ export const meta = {
     instagram: 'https://www.instagram.com/mucahitnezir'
   },
   meetingURL: 'https://calendly.com/mucahitnezir/lets-meet'
-}
+};

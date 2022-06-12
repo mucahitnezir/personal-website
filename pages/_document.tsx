@@ -1,7 +1,7 @@
-import Document, { Html, Head, Main, NextScript } from 'next/document'
+import Document, { Html, Head, Main, NextScript } from 'next/document';
 
-import { meta } from '~/site.config'
-import { GTM_ID, GTM_AVAILABLE } from '~/libs/gtm'
+import { meta } from '~/site.config';
+import { GTM_ID, GTM_AVAILABLE } from '~/libs/gtm';
 
 class MyDocument extends Document {
   render() {
@@ -42,8 +42,8 @@ class MyDocument extends Document {
           <NextScript />
         </body>
       </Html>
-    )
+    );
   }
 }
 
-export default MyDocument
+export default MyDocument;

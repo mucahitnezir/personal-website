@@ -20,7 +20,7 @@ function Icon({ icon, title = 'icon', size = 22, viewBox = '0 0 24 24' }: IconPr
         d={icon}
       />
     </svg>
-  )
+  );
 }
 
-export default Icon
+export default Icon;

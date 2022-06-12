@@ -1,11 +1,11 @@
-import type { AppProps } from 'next/app'
+import type { AppProps } from 'next/app';
+import Head from 'next/head';
+import Script from 'next/script';
 
-import Head from 'next/head'
-import Script from 'next/script'
+import '~/styles/globals.css';
 
-import '~/styles/globals.css'
-import { GTM_ID, GTM_AVAILABLE } from '~/libs/gtm'
-import { meta } from '~/site.config'
+import { GTM_ID, GTM_AVAILABLE } from '~/libs/gtm';
+import { meta } from '~/site.config';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -49,7 +49,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <Component {...pageProps} />
       </main>
     </>
-  )
+  );
 }
 
-export default MyApp
+export default MyApp;

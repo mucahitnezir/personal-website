@@ -1,9 +1,9 @@
-import Image from 'next/image'
+import Image from 'next/image';
 
-import { meta } from '~/site.config'
+import { meta } from '~/site.config';
 
 function Picture() {
-  const { author } = meta
+  const { author } = meta;
 
   return (
     <Image
@@ -15,7 +15,7 @@ function Picture() {
       quality={90}
       className="rounded-full"
     />
-  )
+  );
 }
 
-export default Picture
+export default Picture;
