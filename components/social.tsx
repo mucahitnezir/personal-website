@@ -1,6 +1,6 @@
 import { mdiLinkedin, mdiTwitter, mdiInstagram, mdiGithub  } from '@mdi/js'
 
-import { meta } from '../site.config'
+import { meta } from '~/site.config'
 
 import Icon from './icon'
 import MediumIcon from './medium-icon'

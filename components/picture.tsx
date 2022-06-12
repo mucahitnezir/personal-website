@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-import { meta } from '../site.config'
+import { meta } from '~/site.config'
 
 function Picture() {
   const { author } = meta

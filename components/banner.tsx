@@ -1,7 +1,7 @@
 import Picture from './picture'
 import Social from './social'
 
-import { meta } from '../site.config'
+import { meta } from '~/site.config'
 
 function Banner() {
   const { meetingURL } = meta
