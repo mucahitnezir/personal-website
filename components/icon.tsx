@@ -1,4 +1,11 @@
-function Icon({ icon, title = 'icon', size = 22, viewBox = '0 0 24 24' }) {
+type IconProps = {
+  icon: string,
+  title?: string,
+  size?: number,
+  viewBox?: string
+}
+
+function Icon({ icon, title = 'icon', size = 22, viewBox = '0 0 24 24' }: IconProps) {
   return (
     <svg
       role="img"

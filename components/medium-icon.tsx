@@ -1,6 +1,10 @@
 import Icon from './icon'
 
-function MediumIcon({ size = 22 }) {
+type MediumIconProps = {
+  size?: number
+}
+
+function MediumIcon({ size = 22 }: MediumIconProps) {
   return (
     <Icon
       viewBox="0 0 640 512"
@@ -11,4 +15,4 @@ function MediumIcon({ size = 22 }) {
   )
 }
 
-export default MediumIcon;
+export default MediumIcon

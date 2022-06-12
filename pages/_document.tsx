@@ -1,6 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 
-import { meta } from "../site.config";
+import { meta } from '../site.config'
 import { GTM_ID, GTM_AVAILABLE } from '../libs/gtm'
 
 class MyDocument extends Document {

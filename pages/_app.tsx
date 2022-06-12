@@ -1,3 +1,5 @@
+import type { AppProps } from 'next/app'
+
 import Head from 'next/head'
 import Script from 'next/script'
 
@@ -5,7 +7,7 @@ import '../styles/globals.css'
 import { GTM_ID, GTM_AVAILABLE } from '../libs/gtm'
 import { meta } from '../site.config'
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
