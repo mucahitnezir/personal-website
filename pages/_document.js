@@ -14,7 +14,7 @@ class MyDocument extends Document {
           <meta name="theme-color" content="#282828" />
 
           <link
-            href="https://fonts.googleapis.com/css2?family=Poppins&display=optional"
+            href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
             rel="stylesheet"
           />
 
