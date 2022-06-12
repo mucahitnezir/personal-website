@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }) {
         <title>{meta.title}</title>
 
         <meta name="description" content={meta.description} />
-        <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
 
         {/* open graph meta tags */}
         <meta property="og:type" content="website" />
