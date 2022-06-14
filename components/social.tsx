@@ -19,8 +19,9 @@ function SocialButton({ href, children }: SocialButtonProps) {
       target="_blank"
       rel="noreferrer"
       className="
-      flex items-center rounded-full bg-zinc-200 p-3 text-zinc-600 transition-colors
-      hover:underline hover:bg-opacity-75"
+        flex items-center rounded-full bg-zinc-200 p-3 text-zinc-600 transition-colors
+        hover:underline hover:bg-opacity-75
+      "
     >
       {children}
     </a>
