@@ -7,7 +7,7 @@ function Picture() {
 
   return (
     <Image
-      src="/images/mucahitnezir.jpeg"
+      src="/images/mucahitnezir.jpg"
       alt={author.name}
       width={150}
       height={150}
